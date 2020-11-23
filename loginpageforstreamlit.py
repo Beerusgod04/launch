@@ -56,17 +56,7 @@ def deleteUserNull():
     c.execute('DELETE FROM usertable')
     conn.commit()
 
-def admin_login(username,password1,password2):
-    if(username=='Admin'):
-        if(password1=='aws'):
-            if(password2=='fucker'):
-                return 'Welcome Boss'
-            else:
-                return "try again"
-        else:
-            return "try again"
-    else:
-        return "try again"
+
 
 
 #background image improvisation
